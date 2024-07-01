@@ -1,0 +1,147 @@
+
+:root{
+    --primaryColor : #8F6CD0;
+    --secondaryColor: #E7C6F4;
+    --highColor: #CC9FFA;
+    --bgColor: #131313;
+    --secondaryBgColor: #383838;
+    --fontColor: #fff;
+    --secondaryFontColor: #B8B8B8;
+
+}
+
+html{
+    font-size: 20px;
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+    background: var(--bgColor);
+    color: var(--fontColor);
+}
+
+.hero-com{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 100px !important;
+}
+
+
+.hero-part_1, .hero-part_2{
+    width: 100%;
+}
+
+.hero-part_1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ex{
+    height: 100%;
+}
+
+.profile{
+    background: linear-gradient(to bottom, var(--primaryColor), var(--highColor));
+    border-radius: 10px;
+    padding: 18px;
+}
+
+.avatar{
+    width: 3.2em;
+    height: 3.2em;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    border: 2px solid var(--highColor);
+    overflow: hidden;
+}
+
+.profile-head{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-head p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.profile-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.profile-body-income, .profile-body-spend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 15px;
+}
+
+.profile-body-income p:first-child, .profile-body-spend p:first-child{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.ana{
+    background: var(--secondaryBgColor);
+    border-radius: 10px;
+    padding: 18px;
+}
+
+.ana-txt{
+    font-weight: 500;
+}
+
+
+.ana-graph img{
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.income-sec-wrapper{
+    margin: 70px 0;
+}
+
+.income-sec-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.income-sec-title p:first-child{
+    font-weight: bold;
+}
+
+.income-sec-title p:last-child{
+    cursor: pointer;
+}
+
+.income-list-wrapper{
+    margin: 25px 0;
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+.space{
+    height: 500px;
+}
+@media (max-width: 1439px) {
+    body{
+        background: darkgray;
+    }
+}
