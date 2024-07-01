@@ -78,6 +78,9 @@
 
         <div class="income-list-wrapper">
           <jsp:include page="incomeList.jsp"></jsp:include>
+          <jsp:include page="incomeList.jsp"></jsp:include>
+          <jsp:include page="incomeList.jsp"></jsp:include>
+          <jsp:include page="incomeList.jsp"></jsp:include>
         </div>
       </div>
     </section>
