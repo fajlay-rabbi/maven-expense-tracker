@@ -109,6 +109,11 @@ body{
     margin: 70px 0;
 }
 
+.expense-sec-wrapper{
+    margin-top: 140px;
+    margin-bottom: 70px;
+}
+
 .income-sec-title{
     display: flex;
     justify-content: space-between;
@@ -128,9 +133,21 @@ body{
     flex-direction: column;
     gap: 20px;
     margin: 25px 0;
+}
+
+.cate-list-wrapper{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 25px 0;
     border: 1px solid red;
 }
 
+.see-all{
+    float: right;
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 
 

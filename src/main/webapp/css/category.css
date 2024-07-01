@@ -1,0 +1,30 @@
+.cate-wrapper{
+    display: flex;
+    gap: 15px;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 10px;
+    background: #383838;
+    border-radius: 5px;
+    height: 82px;
+    width: 160px;
+}
+
+.cate-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85%;
+    min-width: 35%;
+    border-radius: 100%;
+    background: #1E1E1E;
+}
+
+.cate-img img{
+    width: 60%;
+}
+
+.cate-content p:last-child{
+    font-size: 16px;
+    color: #B8B8B8;
+}

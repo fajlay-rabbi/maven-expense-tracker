@@ -82,6 +82,31 @@
           <jsp:include page="incomeList.jsp"></jsp:include>
           <jsp:include page="incomeList.jsp"></jsp:include>
         </div>
+
+        <p class="see-all">
+          <a href="#" class="See all">Show all</a>
+        </p>
+
+      </div>
+    </section>
+
+    <section class="container income-sec">
+      <div class="expense-sec-wrapper">
+        <div class="income-sec-title">
+          <p>Categories</p>
+          <p>+ Add</p>
+        </div>
+
+        <div class="cate-list-wrapper">
+          <jsp:include page="categories.jsp"></jsp:include>
+          <jsp:include page="categories.jsp"></jsp:include>
+          <jsp:include page="categories.jsp"></jsp:include>
+          <jsp:include page="categories.jsp"></jsp:include>
+          <jsp:include page="categories.jsp"></jsp:include>
+          <jsp:include page="categories.jsp"></jsp:include>
+          <jsp:include page="categories.jsp"></jsp:include>
+          <jsp:include page="categories.jsp"></jsp:include>
+        </div>
       </div>
     </section>
   </main>
